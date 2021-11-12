@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <input type="radio" name="tab" id="signin" checked="checked"/>
+  <input type="radio" name="tab" id="register"/>
+  <div class="pages">
+    <!-- login form-->
+    <div class="page">
+      <div class="input">
+        <div class="title"> USERNAME</div>
+        <input class="text" type="text"/>
+      </div>
+      <div class="input">
+        <div class="title"> PASSWORD</div>
+        <input class="text" type="password"/>
+      </div>
+      <div class="input">
+        <input type="button" value="ENTER"/>
+      </div>
+    </div>
+    <!-- signup form-->
+    <div class="page signup">
+      <div class="input">
+        <div class="title"> NAME</div>
+        <input class="text" type="text"/>
+      </div>
+      <div class="input">
+        <div class="title"> EMAIL</div>
+        <input class="text" type="email"/>
+      </div>
+      <div class="input">
+        <input type="button" value="SIGN ME UP!"/>
+      </div>
+    </div>
+  </div>
+  <!--Login and register Buttons-->
+  <div class="tabs">
+    <label class="tab" for="signin">
+      <div class="text">Sign In</div>
+    </label>
+    <label class="tab" for="register">
+      <div class="text">Register</div>
+    </label>
+  </div>
+</div>  
+</body>
+</html>
